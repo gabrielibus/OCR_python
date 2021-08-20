@@ -5,7 +5,7 @@ pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract
 file = input('Por favor arrastre la imagen a esta ventana para procesarla: ')
 file = (file.split('"')[1])
 image = Image.open(file)
-texto = pytesseract.image_to_string(image, lang='eng')
+texto = pytesseract.image_to_string(image, lang='spa')
 
 print(texto,"\n\n")
 
