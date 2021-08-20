@@ -1,12 +1,12 @@
 # OCR_python for Windows
-A simple OCR with python
+Un simple OCR con python
 
-# INSTALL
-1. Install the file tesseract-ocr-w64-setup-v5.0.0-alpha.20210811.exe
-2. Install dependencies:
+# INSTALACION
+1. Instale en Windows el archivo: _tesseract-ocr-w64-setup-v5.0.0-alpha.20210811.exe_ que se encuentra en la carpteta _Instalador Windows_
+2. Copie el archivo _spa.traindeddata_ que se encuentra en la carpteta _Instalador a la carpeta _C:\Program Files\Tesseract-OCR\testdata_  Windows_
+3. Instalar dependencias desde la línea de comandos:
 >`pip install pytesseract`
 
-## Config
-Just change in line 5 "example.jpeg" for your image name
+## Uso
+Simplemente arrastre la imagen a la ventada para copiar la ruta y presione ENTER
 
-The end
